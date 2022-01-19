@@ -59,6 +59,20 @@ main>.container {
     background-color: var(--cf-secondary-color);
     border-color: var(--cf-secondary-color);
 }
+.fizz {
+    color:#001Ef3;
+    font-weight: bold;
+}
+
+.buzz {
+    color: red;
+    font-weight: bold
+}
+
+.fizzBuzz {
+    color:pink;
+    font-weight: bold;
+}
 
 .btn-primary:hover,
 .btn-primary:active,
@@ -80,6 +94,6 @@ footer .social>a{
 }
 
 footer .social>a:hover{
-    color:var(--cf-secondary-color)
+    color:var(--cf-secondary-color);
     opacity:.9;
 }
